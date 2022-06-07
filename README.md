@@ -5,7 +5,7 @@
 <ul>
   <li>🔭 I’m currently working on different web as well as mobile technologies. </li>
   <li>🌱 Learning & Coding everyday, currently learning to master React Native and ASP.NET MVC5.</li>
-  <li>👯 I’m looking to collaborate on open source projects in year 2020.</li>
+  <li>👯 I’m looking to collaborate on open source projects in year 2022 & 2023.</li>
   <li>🤔 I’m looking for job opportuniities</li>
   <li>💬 Ask me about my projects</li>
   <li>📫 How to reach me:  <a href="mailto:vikashsahu926@gmail.com?subject=Mail">vikashsahu926@gmail.com</a>  | Linkedin - https://www.linkedin.com/in/vikash-sahu-9a9212110/</li>
