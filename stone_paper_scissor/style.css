@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&family=Roboto:wght@100&family=Rubik+Moonrocks&display=swap');
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header
+{
+   border: none;
+   background: rgb(224, 224, 13);
+   color: black;
+   font-family: 'Rubik Moonrocks',sans-serif;
+   padding: 1px;
+   font-size: 20px;
+   border-radius: 5px 5px 0 0;
+}
+
+.game-container
+{
+    width: 530px;
+    height: 610px;
+    text-align: center;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.66);
+}
+
+img
+{
+    width: 80px;
+    margin: 0 10px;
+    background: rgb(223, 146, 5);
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+#reset
+{
+    width: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: red;
+}
+
+.selected 
+{
+    background: red;
+}
