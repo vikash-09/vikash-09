@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Today</h1>
+
+       <!-- form    -->
+
+       <form id="form">
+        
+        <!-- Form name -->
+
+        <div class="box">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Full Name" required minlength="3" maxlength="100" name="name">
+        </div>
+
+        <!--phone number-->
+
+        
+        <div class="box">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="999-999-9999" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="number">
+        </div>
+
+        <!--email address-->
+
+        <div class="box">
+            <label for="Email">Email Address</label>
+            <input type="email" id="Email" placeholder="example@email.com" required name="email">
+        </div>
+
+        <!--password-->
+
+        <div class="box">
+            <label for="password1">password</label>
+            <input type="password" id="password1" placeholder="Create Your password (Min. 8 Characters) " required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            title="please include minimum 1 upper Case letter 1 lower Case letter 1 specail Character and 1 number" name="password">
+        </div>
+
+        <!--confirm password-->
+
+        <div class="box">
+            <label for="password2">Confirm password</label>
+            <input type="password" id="password2" placeholder="Confirm password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" >
+        </div>
+
+        <button type="submit">Register</button>
+        </form>
+
+       
+        <div class="alert-container">
+        <h3 id="alert">Join Us</h3>
+        </div>
+
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>
